@@ -1,0 +1,178 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #f9f9f9;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    height: 150px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.TWIT {
+	position:relative;
+	max-width: 50vw;
+	max-height:100vh;
+}
+.Top{
+	color:white;
+	font-size:3em;
+	display:flex;
+	justify-content:center;
+	align:center;
+	padding-top:200px;
+}
+.logo img{
+  display: flex;
+  width: auto;
+  height: 80px;
+  margin: auto;
+  padding-right:150px;
+  align-items:center;
+  justify-content: flex-start;
+
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	padding: 8px 18px;
+	border-radius: 30px;
+	margin: 0 10px;
+	font-weight: 600;
+}
+
+.navigation a:hover, .navigation a.active {
+background: #555;
+color: #fff;
+}
+
+.sites {
+	width:20vw;
+	display:;
+	align-items: center;
+}
+
+.siteTXT {
+	display: block;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+}
+
+.parallax {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#text {
+	position: absolute; 
+	font-size: 4.8em;
+	color: #fff;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+	z-index:-3;
+}
+
+.parallax img {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+	z-index:-2;
+}
+
+.sec {
+	position: relative;
+	background: #333;
+	font-size: 1.5em;
+	padding: 150px 300px;
+}
+
+.sec p, h2 {
+	color: white;
+}
+.secref{
+	display:flex;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:space-between;
+	padding:10%;
+	background:#333;
+	font-size: 2em;
+}
+
+.Sit{
+	display:flex;
+	background:#333;
+	padding-top:10%;
+	align-items:center;
+	justify-content: center;
+	font-size:3em;
+}
+
+#image2{
+	position:fixed;
+	z-index:-5;
+}
+
+#image1{
+	z-index:-2;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+	display:flex ;
+  background-color: #333;
+  color: white;
+  padding: 1vw 10vw;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+}
+
+input[type=submit]:hover {
+  background-color: #333;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #555;
+  padding: 10vw 5vw;
+}
+form label{
+	color:white;
+}

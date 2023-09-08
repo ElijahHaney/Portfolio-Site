@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{6A8645E2-62BB-432A-B107-4F057BA15420}"
+	ProjectSection(SolutionItems) = preProject
+		Home.html = Home.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{C4A9C66A-6E4A-4B1E-8EFA-E9F4615451A3}"
+	ProjectSection(SolutionItems) = preProject
+		CSS.css = CSS.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{94381199-DC11-4032-9CC9-8ABA7F20B817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pictures", "Pictures", "{FD57216D-AD76-4E3E-9881-7DB9FAB38FBB}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7232B789-03FC-4C71-979C-750DD1E9F5E0}
+	EndGlobalSection
+EndGlobal
